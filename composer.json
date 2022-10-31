@@ -34,8 +34,7 @@
         ],
         "auto-fix": [
             "@rector-fix",
-            "@code-style-fix",
-            "@phpunit"
+            "@code-style-fix"
         ],
         "code-style": [
             "vendor/bin/ecs check src tests"
